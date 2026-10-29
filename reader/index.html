@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Document reader / Kirill Gelvan</title>
+  <link rel="stylesheet" href="reader.css">
+  <script type="module" src="reader.mjs"></script>
+</head>
+<body>
+  <header class="reader-header">
+    <a class="reader-back" href="../work/index.html" target="_top">Kirill Gelvan / Work</a>
+    <h1 id="document-title">Reading room.</h1>
+    <nav aria-label="Document actions" hidden>
+      <a id="document-source" target="_blank" rel="noopener noreferrer">Source</a>
+      <a id="document-open" target="_blank" rel="noopener noreferrer">Open PDF</a>
+      <a id="document-download" download>Download</a>
+      <button id="document-fullscreen" hidden>Fullscreen</button>
+    </nav>
+  </header>
+  <p id="reader-status" role="status">Opening the document...</p>
+  <iframe id="document-frame" title="Document reader" allow="fullscreen" allowfullscreen hidden></iframe>
+  <noscript><p>This reader needs JavaScript. The original documents are available in <a href="https://github.com/Kirili4ik/pres-n-articles">the public collection</a>.</p></noscript>
+</body>
+</html>

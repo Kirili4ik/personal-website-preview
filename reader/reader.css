@@ -1,0 +1,14 @@
+:root { color-scheme: light; font-family: Arial, Helvetica, sans-serif; color: #172c2a; background: #f3efe4; }
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; height: 100vh; height: 100dvh; display: flex; flex-direction: column; }
+.reader-header { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem 1.5rem; padding: .9rem 1.25rem; border-bottom: 1px solid #172c2a; }
+.reader-back { font-size: .75rem; white-space: nowrap; }
+h1 { font-size: clamp(1rem, 2vw, 1.35rem); line-height: 1.2; margin: 0; flex: 1 1 18rem; }
+nav { display: flex; flex-wrap: wrap; gap: .5rem 1rem; align-items: center; font-size: .85rem; }
+a { color: inherit; text-underline-offset: .2em; }
+button { font: inherit; border: 1px solid currentColor; padding: .45rem .7rem; background: #d9ef68; color: inherit; cursor: pointer; }
+:focus-visible { outline: 3px solid #b33e20; outline-offset: 4px; }
+#reader-status, noscript p { margin: 1.25rem; }
+iframe { border: 0; display: block; width: 100%; flex: 1; min-height: 0; background: #ddd9cf; }
+@media (max-width: 600px) { .reader-header { gap: .6rem; padding: .75rem; } h1 { flex-basis: 100%; order: 1; } nav { margin-left: auto; gap: .6rem; } }

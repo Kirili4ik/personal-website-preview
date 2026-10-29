@@ -1,0 +1,11 @@
+@media (forced-colors: none) {
+  :root {
+    color-scheme: light;
+    --main-color: #172c2a;
+    --toolbar-bg-color: #f3efe4;
+    --sidebar-toolbar-bg-color: #f3efe4;
+    --toolbar-border-color: #b6b6a6;
+    --button-hover-color: #d9ef68;
+    --field-bg-color: #fffdf7;
+  }
+}

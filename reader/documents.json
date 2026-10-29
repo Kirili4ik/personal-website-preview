@@ -1,0 +1,222 @@
+[
+  {
+    "id": "adversarial-examples",
+    "catalog_id": "adversarial-examples-talk",
+    "title": "Adversarial examples",
+    "kind": "talk",
+    "source_url": "https://github.com/Kirili4ik/pres-n-articles/blob/master/Adversarial_examples.pdf",
+    "file": "documents/adversarial-examples.pdf",
+    "sha256": "a6f7359ded09425f5a913070b0842d07317cc1ea0b2b52c26b18010f5d0bd4e9",
+    "bytes": 4094214
+  },
+  {
+    "id": "jax-overview",
+    "catalog_id": "jax-overview",
+    "title": "JAX overview",
+    "kind": "talk",
+    "source_url": "https://github.com/Kirili4ik/pres-n-articles/blob/master/Jax_overview.pdf",
+    "file": "documents/jax-overview.pdf",
+    "sha256": "9fdb2c2b9e9e34d20841ffc24c5441542e68671fcace07db59bf30aae738a9f8",
+    "bytes": 660970
+  },
+  {
+    "id": "nl2ml-talk",
+    "catalog_id": "nl2ml-talk",
+    "title": "Natural Language to Machine Learning corpus",
+    "kind": "talk",
+    "source_url": "https://github.com/Kirili4ik/pres-n-articles/blob/master/corpus_NL2ML_Presentation.pdf",
+    "file": "documents/nl2ml-talk.pdf",
+    "sha256": "e04f347579b7a18d2f7b4c0cae9d86c50f1fdd0b91795d1d638a96fded8481db",
+    "bytes": 528258
+  },
+  {
+    "id": "source-code-summarization",
+    "catalog_id": "source-code-summary-report",
+    "title": "Transformer-based Source Code Summarization",
+    "kind": "project_report",
+    "source_url": "https://github.com/Kirili4ik/pres-n-articles/blob/master/Transformer-based_Source_Code_Summarization2020.pdf",
+    "file": "documents/source-code-summarization.pdf",
+    "sha256": "d20a48fbb237396eb5ff132c023e5e7878bf4ff1e7acb88edd3b98f147eae0db",
+    "bytes": 597829
+  },
+  {
+    "id": "stochastic-softmax-talk",
+    "catalog_id": "stochastic-softmax-talk",
+    "title": "Gradient Estimation with Stochastic Softmax Tricks",
+    "kind": "talk",
+    "source_url": "https://github.com/Kirili4ik/pres-n-articles/blob/master/Gradient_Estimation_with_Stochastic_Softmax_Tricks.pdf",
+    "file": "documents/stochastic-softmax-talk.pdf",
+    "sha256": "eba9f82bbb056c2d1d25d768dafdd9f2453bebb32099c6c56f7a1a3c6ddfe780",
+    "bytes": 1317756
+  },
+  {
+    "id": "accent-spotting-talk",
+    "catalog_id": "accent-spotting-talk",
+    "title": "Accent spotting",
+    "kind": "talk",
+    "source_url": "https://github.com/Kirili4ik/pres-n-articles/blob/master/Accent_Spotting.pdf",
+    "file": "documents/accent-spotting-talk.pdf",
+    "sha256": "9f31da6b4e1bfd04576dea0551acf75bcc6a444bce7b47d11b10486311922170",
+    "bytes": 666904
+  },
+  {
+    "id": "training-language-gans-talk",
+    "catalog_id": "language-gans-talk",
+    "title": "Training language GANs from Scratch",
+    "kind": "talk",
+    "source_url": "https://github.com/Kirili4ik/pres-n-articles/blob/master/Training%20language%20GANs%20from%20Scratch.pdf",
+    "file": "documents/training-language-gans-talk.pdf",
+    "sha256": "17e786e0c87d046600dfa1a97919dee25ae669b533a2d60e2f9edf380520a80d",
+    "bytes": 1134919
+  },
+  {
+    "id": "bachelor-thesis",
+    "catalog_id": "symbolic-mathematics",
+    "title": "Empirical Study of Transformers for Symbolic Mathematics: bachelor thesis",
+    "kind": "thesis",
+    "source_url": "https://github.com/Kirili4ik/pres-n-articles/blob/master/%5Bwork%5DEmpirical_Study_of_Transformers_for_Symbolic_Mathematics.pdf.pdf",
+    "file": "documents/bachelor-thesis.pdf",
+    "sha256": "77d7b28114606ac354b6623fcc13b10a248a5cb4c85b3b802f781e43be1ec61b",
+    "bytes": 1573369
+  },
+  {
+    "id": "bachelor-thesis-talk",
+    "catalog_id": "symbolic-mathematics-talk",
+    "title": "Empirical Study of Transformers for Symbolic Mathematics: thesis presentation",
+    "kind": "talk",
+    "source_url": "https://github.com/Kirili4ik/pres-n-articles/blob/master/Empirical_Study_of_Transformers_for_Symbolic_Mathematics.pdf",
+    "file": "documents/bachelor-thesis-talk.pdf",
+    "sha256": "4c449074f6266191b478cde02dc27e1b8231cf6b795da483f659d6af72e0cfcb",
+    "bytes": 1149382
+  },
+  {
+    "id": "master-makeathon-talk",
+    "catalog_id": "master-makeathon",
+    "title": "MASTER: Multi-Agent Sales-Tailored Expert Robot",
+    "kind": "talk",
+    "source_url": "https://github.com/Kirili4ik/pres-n-articles/blob/master/MASTER_makeathon24.pdf",
+    "file": "documents/master-makeathon-talk.pdf",
+    "sha256": "f707d76cee8d93a6c4ad3cea2ed94062a26d00bffb113b19d77fac3fe1619606",
+    "bytes": 3114309
+  },
+  {
+    "id": "ssm-overview",
+    "catalog_id": "ssm-overview",
+    "title": "State Space Models for Long Sequence Challenges: A Review of HiPPO, Resurrected RNNs, and Transformer Dualities",
+    "kind": "written_review",
+    "source_url": "https://github.com/Kirili4ik/pres-n-articles/blob/master/SSM_overview.pdf",
+    "file": "documents/ssm-overview.pdf",
+    "sha256": "5c477acc6ddddcdf1869a32635c041dd8e10a34d8110aa676ecfffdb1bbf2957",
+    "bytes": 1923742
+  },
+  {
+    "id": "convonet-improvements",
+    "catalog_id": "convonet-improvements",
+    "title": "Improving Convolutional Occupancy Networks",
+    "kind": "team_course_paper",
+    "source_url": "https://github.com/Kirili4ik/pres-n-articles/blob/master/convONets_3d_modifications.pdf",
+    "file": "documents/convonet-improvements.pdf",
+    "sha256": "85834d9bc9fd31c310d78f330cb7890ea5c933a3212c6cd4a081156831a58c41",
+    "bytes": 1310390
+  },
+  {
+    "id": "trajectory-compression-poster",
+    "catalog_id": "masters-thesis",
+    "title": "Implicit Context Compression for Local Software Engineering Agents: thesis poster",
+    "kind": "poster",
+    "source_url": "https://github.com/Kirili4ik/pres-n-articles/blob/master/pictures/Trajectory_Compression_Poster.pdf",
+    "file": "documents/trajectory-compression-poster.pdf",
+    "sha256": "4aecc3311bc83ee8587dafbc1b613415e7e98df2705dc5ee25d49306f1b1c680",
+    "bytes": 3625441
+  },
+  {
+    "id": "speedrunning-talk",
+    "catalog_id": "speedrunning-talk",
+    "title": "Speedrunning 101",
+    "kind": "talk",
+    "source_url": "https://github.com/Kirili4ik/pres-n-articles/blob/master/speedrunning%20101.pdf",
+    "file": "documents/speedrunning-talk.pdf",
+    "sha256": "20e811a13fe2781196f9c20668afea2689b395d35a1527cc8f3eca40669c076d",
+    "bytes": 4461296
+  },
+  {
+    "id": "masters-thesis",
+    "catalog_id": "masters-thesis",
+    "title": "Implicit Context Condensation for Local Software Engineering Agents",
+    "kind": "thesis",
+    "source_url": "https://github.com/Kirili4ik/pres-n-articles/blob/master/Implicit_context_condensation_for_local_SWE_agents_text.pdf",
+    "file": "documents/masters-thesis.pdf",
+    "sha256": "916ab47176fa0049bfb68a2c403ec46e9a144bb1f23a9e7f60993cf9c27e99e1",
+    "bytes": 1039016
+  },
+  {
+    "id": "context-condensation-talk",
+    "catalog_id": "context-condensation-talk",
+    "title": "Implicit Context Condensation for Local SWE Agents: thesis presentation",
+    "kind": "talk",
+    "source_url": "https://github.com/Kirili4ik/pres-n-articles/blob/master/Impicit_context_condensation_for_local_SWE_agents_presentation.pdf",
+    "file": "documents/context-condensation-talk.pdf",
+    "sha256": "6c50cf0800082ac9fdc98eb4f032a6ec26342c70a5392af197c09734847594a7",
+    "bytes": 2787146
+  },
+  {
+    "id": "cv",
+    "catalog_id": "cv",
+    "title": "Kirill Gelvan: CV",
+    "kind": "cv",
+    "source_url": "https://github.com/Kirili4ik/pres-n-articles/blob/master/CV_Kirill_Gelvan.pdf",
+    "file": "documents/cv.pdf",
+    "sha256": "0c425a9855ada88674eab520ec6070c3d107e6988ec61b941f289f2d78ef6e7e",
+    "bytes": 167117
+  },
+  {
+    "id": "step-level-routing",
+    "catalog_id": "step-level-routing",
+    "title": "Step-Level LLM Routing for Software Engineering Agents",
+    "kind": "poster",
+    "source_url": "https://github.com/Kirili4ik/pres-n-articles/blob/master/Step_Level_LLM_Routing_poster.pdf",
+    "file": "documents/step-level-routing.pdf",
+    "sha256": "451cad1f4bfbecb3162901b6bb56ff617b38f1f2223b46e78794562aa688edd9",
+    "bytes": 607261
+  },
+  {
+    "id": "moe-talk",
+    "catalog_id": "moe-talk",
+    "title": "How to train a MoE-LLM in 2026",
+    "kind": "talk",
+    "source_url": "https://github.com/Kirili4ik/pres-n-articles/blob/master/How%20to%20train%20a%20MoE-LLM.pdf",
+    "file": "documents/moe-talk.pdf",
+    "sha256": "ee2f75dbe8d83d634110f01c66b6c4832119226a2f50af9575298a29b8a63cdb",
+    "bytes": 3799598
+  },
+  {
+    "id": "context-compression-paper",
+    "catalog_id": "context-compression-paper",
+    "title": "On Problems of Implicit Context Compression for Software Engineering Agents",
+    "kind": "paper",
+    "source_url": "https://github.com/Kirili4ik/pres-n-articles/blob/master/On_Problems_of_Implicit_Context_Compression_for_SWE_Agents.pdf",
+    "file": "documents/context-compression-paper.pdf",
+    "sha256": "8aad3ab5596a590c35fa76460ffd302e0872974cd0b5a51c5aeeeb050b6632ab",
+    "bytes": 1148875
+  },
+  {
+    "id": "budget-internalization",
+    "catalog_id": "budget-internalization",
+    "title": "Budget Internalization",
+    "kind": "poster",
+    "source_url": "https://github.com/Kirili4ik/pres-n-articles/blob/master/Budget_Internalisation_poster.pdf",
+    "file": "documents/budget-internalization.pdf",
+    "sha256": "1d4e29b470fa7a5ebab826baf5b2e8b87914a13f364fe139f3a0971cc655b5f3",
+    "bytes": 158307
+  },
+  {
+    "id": "happiness-talk",
+    "catalog_id": "happiness-talk",
+    "title": "How to be happy 101",
+    "kind": "talk",
+    "source_url": "https://github.com/Kirili4ik/pres-n-articles/blob/master/how%20to%20be%20happy%20101.pdf",
+    "file": "documents/happiness-talk.pdf",
+    "sha256": "69276f3e22b00d03bb537fd2b9c9d517cd02e06e726cf38d1d67243b4a0fa44c",
+    "bytes": 2235805
+  }
+]
