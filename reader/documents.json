@@ -218,5 +218,30 @@
     "file": "documents/happiness-talk.pdf",
     "sha256": "69276f3e22b00d03bb537fd2b9c9d517cd02e06e726cf38d1d67243b4a0fa44c",
     "bytes": 2235805
+  },
+  {
+    "id": "robot-grasping-poster",
+    "catalog_id": "robot-grasping-jepa",
+    "title": "Self-supervised Learning for Robot Grasping",
+    "kind": "poster",
+    "source_url": "https://www.linkedin.com/posts/kirili4ik_machinelearning-robotics-ugcPost-7222230352658857984-c-mi/",
+    "file": "documents/robot-grasping-poster.pdf",
+    "sha256": "65b79ae45541636105cb943db2355fa2bdac278bcf9a8c3d4d1bbac40bd4b29f",
+    "bytes": 3133956,
+    "source_format": "PDF",
+    "conversion": "None. The supplied original PDF is copied byte-for-byte, retaining its text, figures and author attribution.",
+    "quality_check": "One A0 landscape page (3369 x 2383 pt). Text extraction and full-page rendering verified with Poppler. The original includes searchable text and embedded raster figures. Poppler reports a badly formatted number warning at offset 895 but successfully extracts and renders the page.",
+    "source_origin": "Original poster PDF supplied by Kirill on 30 October 2026.",
+    "source_url_context": "Original public project post retained for link matching and project context; the bundled PDF was supplied locally, not downloaded from this URL."
+  },
+  {
+    "id": "convonet-poster",
+    "catalog_id": "convonet-poster",
+    "title": "Convolutional Occupancy Networks",
+    "kind": "poster",
+    "source_url": "https://docs.google.com/presentation/d/1AT_0zpyXv-0hbHQpSIVpBBA7zP0y9pa4kg4JPXb7HVc/edit?usp=sharing",
+    "file": "documents/convonet-poster.pdf",
+    "sha256": "00cdc80509abdf52e4c54a25f935c0cc1fcfac150db7066495843b0a77dab7e9",
+    "bytes": 2318848
   }
 ]

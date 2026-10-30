@@ -1,0 +1,10 @@
+{
+  "name": "Sticker Forge",
+  "author": "CatsJuice",
+  "license": "MIT",
+  "source": "https://github.com/CatsJuice/sticker-forge",
+  "revision": "068caa49eef69745564a5debbc01bab3fcd31042",
+  "upstream_bundle": "public/embed/sticker-forge.iife.js",
+  "upstream_sha256": "e6b6d3c2d599e65250094c839e399b83886d3425054618d6900e8efd162a085c",
+  "use": "Unmodified browser bundle; license prepended. Automatic peel progress driven by collection.js. Sound disabled."
+}

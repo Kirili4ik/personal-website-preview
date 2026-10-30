@@ -1,0 +1,27 @@
+{
+  "bundled": "2026-10-30",
+  "fonts": [
+    {
+      "file": "anybody-variable.woff2",
+      "sha256": "64ac0acb0e67aa23712e628f16f5182a39cba79015bca4af252e054be57b71a7",
+      "license": "anybody-variable-OFL.txt",
+      "source": {
+        "name": "Anybody[wdth,wght].ttf",
+        "sha": "bc9de3e00faddfe87e395c1813242cc45d32b28e",
+        "download_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/anybody/Anybody%5Bwdth%2Cwght%5D.ttf"
+      },
+      "conversion": "Lossless WOFF2 compression of the full original variable TTF; no subsetting."
+    },
+    {
+      "file": "bricolage-grotesque-variable.woff2",
+      "sha256": "e40a5ef19dbf07b03855f08b16eab8108147272ebd81540f288210643a327660",
+      "license": "bricolage-grotesque-variable-OFL.txt",
+      "source": {
+        "name": "BricolageGrotesque[opsz,wdth,wght].ttf",
+        "sha": "9a4ca271ff84357bb8f8830ce71b85ea3571f731",
+        "download_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/bricolagegrotesque/BricolageGrotesque%5Bopsz%2Cwdth%2Cwght%5D.ttf"
+      },
+      "conversion": "Lossless WOFF2 compression of the full original variable TTF; no subsetting."
+    }
+  ]
+}

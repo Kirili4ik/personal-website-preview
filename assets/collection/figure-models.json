@@ -1,0 +1,32 @@
+[
+  {
+    "id": "r2d2",
+    "name": "R2-D2",
+    "uid": "f241df06e19c4643829535fe2610cedd",
+    "source": "https://sketchfab.com/3d-models/r2d2-star-wars-f241df06e19c4643829535fe2610cedd",
+    "embed": "https://sketchfab.com/models/f241df06e19c4643829535fe2610cedd/embed",
+    "author": "porgy",
+    "author_url": "https://sketchfab.com/porgy",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "thumbnail": "figure-r2d2.webp",
+    "thumbnail_source": "https://media.sketchfab.com/models/f241df06e19c4643829535fe2610cedd/thumbnails/7d56a1e2eaf043019dc2f290f3801e6d/c0c052773bd847f2adc5a1df3c12a3d4.jpeg",
+    "note": "Creator model of the same character; not a verified scan of the photographed toy.",
+    "thumbnail_changes": "Resized to a maximum width of640px and converted to WebP"
+  },
+  {
+    "id": "grogu",
+    "name": "Grogu",
+    "uid": "fdd2cf82603445bcb985c6587e229f51",
+    "source": "https://sketchfab.com/3d-models/grogu-fdd2cf82603445bcb985c6587e229f51",
+    "embed": "https://sketchfab.com/models/fdd2cf82603445bcb985c6587e229f51/embed",
+    "author": "vibeshot14",
+    "author_url": "https://sketchfab.com/vibeshot14",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "thumbnail": "figure-grogu.webp",
+    "thumbnail_source": "https://media.sketchfab.com/models/fdd2cf82603445bcb985c6587e229f51/thumbnails/0f06549f297241b980cb7912a96935a0/b91869beeb7f418993644e63a7734875.jpeg",
+    "note": "Creator model of the same character; not a verified scan of the photographed toy.",
+    "thumbnail_changes": "Resized to a maximum width of640px and converted to WebP"
+  }
+]

@@ -1,0 +1,403 @@
+{
+  "version": 1,
+  "coordinate_frame": {
+    "viewBox": [
+      0,
+      0,
+      1280,
+      960
+    ],
+    "crop": "[x, y, width, height] in SVG viewBox units"
+  },
+  "provenance": {
+    "method": "Native decoded displayed laptop-photo RGB, cropped without resampling or pose correction; reviewed annotation polygons supply alpha.",
+    "alpha": "8x polygon coverage, BOX downsampling, 2px native transparent margin",
+    "encoding": "Lossless RGBA WebP; exact transparent RGB retained; source metadata omitted.",
+    "generator": "concepts/album/prepare_collection_peels.py",
+    "scope": "The 35 annotated targets in the finished inventory. This is fine is separately photographed and has no laptop target."
+  },
+  "sources": {
+    "old": {
+      "path": "concepts/album/assets/laptop-old.webp",
+      "sha256": "3bdff1bec6961251fb401d81e601dfa766ed00f3a3afafda9df816b97ba2a562",
+      "size": [
+        1280,
+        960
+      ],
+      "reference_size": [
+        1280,
+        960
+      ],
+      "annotations": "stickers/annotations/old.json",
+      "annotations_sha256": "0087dc2f716ae038ea84be975602d50bfb1e1bf64c029a5fd5be2f203e9f3914",
+      "original_source": "concepts/more-pics/2026-10-28 15.59.20.jpg"
+    },
+    "new": {
+      "path": "concepts/album/assets/laptop-new.webp",
+      "sha256": "2b519393cee609cfb8a60a668e9ef24677115a83a23a150950aaaf6779241202",
+      "size": [
+        1400,
+        1050
+      ],
+      "reference_size": [
+        1280,
+        960
+      ],
+      "annotations": "stickers/annotations/new.json",
+      "annotations_sha256": "aa7715def4d2262967a8912525008a20b0ce84f0c98108d859d29b3c7f2a314c",
+      "original_source": "concepts/more-pics/new.jpg"
+    }
+  },
+  "photos": {
+    "old-03-euler-identity": {
+      "photo": "old",
+      "crop": [
+        114.0,
+        229.0,
+        283.0,
+        115.0
+      ],
+      "artwork": "peels/old-03-euler-identity.webp"
+    },
+    "old-04-verified-coffee-addict": {
+      "photo": "old",
+      "crop": [
+        395.0,
+        134.0,
+        268.0,
+        121.0
+      ],
+      "artwork": "peels/old-04-verified-coffee-addict.webp"
+    },
+    "old-05-coffee-power": {
+      "photo": "old",
+      "crop": [
+        383.0,
+        237.0,
+        143.0,
+        136.0
+      ],
+      "artwork": "peels/old-05-coffee-power.webp"
+    },
+    "old-07-nintendo-switch": {
+      "photo": "old",
+      "crop": [
+        700.0,
+        160.0,
+        105.0,
+        96.0
+      ],
+      "artwork": "peels/old-07-nintendo-switch.webp"
+    },
+    "old-08-pinup-board-rider": {
+      "photo": "old",
+      "crop": [
+        867.0,
+        179.0,
+        195.0,
+        217.0
+      ],
+      "artwork": "peels/old-08-pinup-board-rider.webp"
+    },
+    "old-09-teacup": {
+      "photo": "old",
+      "crop": [
+        1040.0,
+        164.0,
+        84.0,
+        77.0
+      ],
+      "artwork": "peels/old-09-teacup.webp"
+    },
+    "old-10-pusheen-cookie": {
+      "photo": "old",
+      "crop": [
+        787.0,
+        277.0,
+        78.0,
+        79.0
+      ],
+      "artwork": "peels/old-10-pusheen-cookie.webp"
+    },
+    "old-12-spotify-code": {
+      "photo": "old",
+      "crop": [
+        495.0,
+        301.0,
+        278.0,
+        84.0
+      ],
+      "artwork": "peels/old-12-spotify-code.webp"
+    },
+    "old-13-obi-wan": {
+      "photo": "old",
+      "crop": [
+        103.0,
+        326.0,
+        233.0,
+        122.0
+      ],
+      "artwork": "peels/old-13-obi-wan.webp"
+    },
+    "old-14-city-falling-figure": {
+      "photo": "old",
+      "crop": [
+        319.0,
+        326.0,
+        226.0,
+        128.0
+      ],
+      "artwork": "peels/old-14-city-falling-figure.webp"
+    },
+    "old-15-red-ring": {
+      "photo": "old",
+      "crop": [
+        87.0,
+        445.0,
+        59.0,
+        59.0
+      ],
+      "artwork": "peels/old-15-red-ring.webp"
+    },
+    "old-16-random-forest": {
+      "photo": "old",
+      "crop": [
+        101.0,
+        482.0,
+        202.0,
+        130.0
+      ],
+      "artwork": "peels/old-16-random-forest.webp"
+    },
+    "old-17-sif-wolf-sword": {
+      "photo": "old",
+      "crop": [
+        252.0,
+        447.0,
+        160.0,
+        101.0
+      ],
+      "artwork": "peels/old-17-sif-wolf-sword.webp"
+    },
+    "old-18-origami-fox": {
+      "photo": "old",
+      "crop": [
+        267.0,
+        474.0,
+        190.0,
+        199.0
+      ],
+      "artwork": "peels/old-18-origami-fox.webp"
+    },
+    "old-19-death-note-l": {
+      "photo": "old",
+      "crop": [
+        442.0,
+        504.0,
+        65.0,
+        70.0
+      ],
+      "artwork": "peels/old-19-death-note-l.webp"
+    },
+    "old-20-procrastination-chart": {
+      "photo": "old",
+      "crop": [
+        498.0,
+        405.0,
+        225.0,
+        206.0
+      ],
+      "artwork": "peels/old-20-procrastination-chart.webp"
+    },
+    "old-22-f-key": {
+      "photo": "old",
+      "crop": [
+        757.0,
+        504.0,
+        221.0,
+        228.0
+      ],
+      "artwork": "peels/old-22-f-key.webp"
+    },
+    "old-23-goose-sticker": {
+      "photo": "old",
+      "crop": [
+        470.0,
+        602.0,
+        185.0,
+        203.0
+      ],
+      "artwork": "peels/old-23-goose-sticker.webp"
+    },
+    "old-26-hu-tao": {
+      "photo": "old",
+      "crop": [
+        970.0,
+        519.0,
+        227.0,
+        301.0
+      ],
+      "artwork": "peels/old-26-hu-tao.webp"
+    },
+    "old-27-not-normal": {
+      "photo": "old",
+      "crop": [
+        819.0,
+        729.0,
+        304.0,
+        100.0
+      ],
+      "artwork": "peels/old-27-not-normal.webp"
+    },
+    "old-28-new-york-line-art": {
+      "photo": "old",
+      "crop": [
+        235.0,
+        663.0,
+        308.0,
+        157.0
+      ],
+      "artwork": "peels/old-28-new-york-line-art.webp"
+    },
+    "old-29-burning-gpu": {
+      "photo": "old",
+      "crop": [
+        340.0,
+        639.0,
+        77.0,
+        78.0
+      ],
+      "artwork": "peels/old-29-burning-gpu.webp"
+    },
+    "old-30-vans": {
+      "photo": "old",
+      "crop": [
+        90.0,
+        540.0,
+        243.0,
+        178.0
+      ],
+      "artwork": "peels/old-30-vans.webp"
+    },
+    "old-33-spider-gwen": {
+      "photo": "old",
+      "crop": [
+        938.0,
+        288.0,
+        214.0,
+        264.0
+      ],
+      "artwork": "peels/old-33-spider-gwen.webp"
+    },
+    "new-01-jetbrains": {
+      "photo": "new",
+      "crop": [
+        894.1714285714286,
+        50.285714285714285,
+        222.17142857142858,
+        206.62857142857143
+      ],
+      "artwork": "peels/new-01-jetbrains.webp"
+    },
+    "new-02-you-matter": {
+      "photo": "new",
+      "crop": [
+        607.0857142857143,
+        361.14285714285717,
+        135.31428571428572,
+        144.45714285714286
+      ],
+      "artwork": "peels/new-02-you-matter.webp"
+    },
+    "new-03-vibing": {
+      "photo": "new",
+      "crop": [
+        195.65714285714284,
+        457.14285714285717,
+        211.2,
+        54.857142857142854
+      ],
+      "artwork": "peels/new-03-vibing.webp"
+    },
+    "new-04-pixel-dog": {
+      "photo": "new",
+      "crop": [
+        111.54285714285714,
+        523.8857142857142,
+        124.34285714285714,
+        85.94285714285714
+      ],
+      "artwork": "peels/new-04-pixel-dog.webp"
+    },
+    "new-05-zerolabs": {
+      "photo": "new",
+      "crop": [
+        269.7142857142857,
+        521.1428571428571,
+        194.74285714285713,
+        94.17142857142858
+      ],
+      "artwork": "peels/new-05-zerolabs.webp"
+    },
+    "new-06-weights-biases": {
+      "photo": "new",
+      "crop": [
+        160.0,
+        625.3714285714286,
+        200.22857142857143,
+        55.77142857142857
+      ],
+      "artwork": "peels/new-06-weights-biases.webp"
+    },
+    "new-07-cohere": {
+      "photo": "new",
+      "crop": [
+        117.02857142857142,
+        686.6285714285714,
+        128.9142857142857,
+        44.8
+      ],
+      "artwork": "peels/new-07-cohere.webp"
+    },
+    "new-08-golf": {
+      "photo": "new",
+      "crop": [
+        170.05714285714285,
+        742.4,
+        186.5142857142857,
+        79.54285714285714
+      ],
+      "artwork": "peels/new-08-golf.webp"
+    },
+    "new-09-tum": {
+      "photo": "new",
+      "crop": [
+        397.7142857142857,
+        714.0571428571428,
+        136.22857142857143,
+        83.2
+      ],
+      "artwork": "peels/new-09-tum.webp"
+    },
+    "new-10-dancers": {
+      "photo": "new",
+      "crop": [
+        722.2857142857143,
+        554.9714285714285,
+        158.17142857142858,
+        106.97142857142858
+      ],
+      "artwork": "peels/new-10-dancers.webp"
+    },
+    "new-11-gravestone": {
+      "photo": "new",
+      "crop": [
+        800.9142857142857,
+        503.77142857142854,
+        384.9142857142857,
+        339.2
+      ],
+      "artwork": "peels/new-11-gravestone.webp"
+    }
+  }
+}

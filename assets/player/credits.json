@@ -1,0 +1,109 @@
+{
+  "assets": [
+    {
+      "file": "sony_discman_d-181.glb",
+      "bytes": 15859012,
+      "sha256": "0c3f92a33472948f7e18e5821e59b07bedf790767b23e920db990efe048814d4",
+      "downloaded_at": "2026-10-30",
+      "download_method": "Official signed-in Sketchfab Download 3D Model, GLB 4k",
+      "author": "yanix (https://sketchfab.com/yanix)",
+      "title": "Sony Discman D-181",
+      "source": "https://sketchfab.com/3d-models/sony-discman-d-181-aa7c1ad9b6de4a44857b3f2d1ff35d30",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "modified": false
+    },
+    {
+      "file": "sony_walkman_wm-f2078.glb",
+      "bytes": 167491132,
+      "sha256": "652e00b956ec5b1c7d260a54e3ac9ea391be973270153708a7debde082499058",
+      "downloaded_at": "2026-10-30",
+      "download_method": "Official signed-in Sketchfab Download 3D Model, GLB 4k",
+      "author": "Ilgis (Dolgov) Fatykhov (https://sketchfab.com/Dolgov12)",
+      "title": "Sony Walkman WM-F2078",
+      "source": "https://sketchfab.com/3d-models/sony-walkman-wm-f2078-a336664b96344630b0f7e1eaac2c256d",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "modified": false
+    }
+  ],
+  "embedded_stickers": [
+    "new-02-you-matter",
+    "new-03-vibing"
+  ],
+  "modifications": [
+    "Discman exterior divided into hinged lid and base; authored visual interior and softened inner rim.",
+    "Original textured headphone plug fitted to modeled socket; authored smooth cable connects both earcups.",
+    "Downloaded case normalized, closed and beveled; source tray/hinges/cover UVs preserved and artwork replaced.",
+    "Downloaded CD profile refined to 384 radial segments, 120 mm diameter, 15 mm hole and 1.2 mm thickness; original Work/Life label artwork.",
+    "Existing sticker meshes conformed to curved lid with 45-165 micron offsets and attached to hinge.",
+    "Clamped Bezier insertion, vertical seating, lid closure and reflective LCD startup; 3.8 seconds with artistically compressed reading time.",
+    "2K Discman and 1200-pixel artwork retained; shared CC0 studio HDR for lighting and reflections."
+  ],
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "music": {
+    "work": null,
+    "life": null,
+    "note": "No soundtrack selected or bundled."
+  },
+  "classical_recording": {
+    "title": "Moonlight Sonata / I. Adagio sostenuto",
+    "composer": "Ludwig van Beethoven",
+    "performer": "Paul Pitman for Musopen",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=3434027",
+    "license": "Public domain, as documented for this recording on Wikimedia Commons",
+    "derivative": "160 kbps MP3, no edit to the performance",
+    "duration_seconds": 335.804,
+    "sha256": "9d315488691ff79b94c3c1658bafb6c35e2560393d74fe5f42a8e1fec705b6c6",
+    "playback": "Explicit Play in Life only. Not a Work/Life background track."
+  },
+  "runtime_assets": [
+    {
+      "file": "desktop.webp",
+      "bytes": 50574,
+      "sha256": "d12ff0bf5b3c7ad34a52264cca31b8113a1aad5d516ccceed026ba797cd211e1"
+    },
+    {
+      "file": "phone.webp",
+      "bytes": 42560,
+      "sha256": "284c2305d05f831ced58be98361c0cd63ca0baac69ee3e1ac74b04ad3bcb4ad5"
+    },
+    {
+      "file": "scene.glb",
+      "bytes": 4586976,
+      "sha256": "aaeb2e2b9e1bf899ffa4337508194e670c3e2f2661e6d2ea0d992af0202aa0dd"
+    },
+    {
+      "file": "scene-phone.glb",
+      "bytes": 4587532,
+      "sha256": "21eebb9367748b538c57a978122eacdf0b593fb4737cc62637198710ecdefd92"
+    },
+    {
+      "file": "studio.hdr",
+      "bytes": 410568,
+      "sha256": "b16be692425d79f3e5c8833b192804bfb8ad5a87ae2452b094522772d640a48a"
+    }
+  ],
+  "media_model": {
+    "creator": "enjoyboy",
+    "source": "https://blendswap.com/blend/25080",
+    "license": "CC-BY; version not shown on listing",
+    "source_sha256": "d48c5e380cb039d601af3fdf1e190cfd53c219e76795fef705c459a9f7431e42",
+    "mirror": {
+      "creator": "blue man group",
+      "source": "https://sketchfab.com/3d-models/cd-jewel-case-f6c8386e76e54918b551ebdd276479dd",
+      "license": "CC BY 4.0"
+    },
+    "note": "Official downloads have byte-identical source .blend files; account identity and original publication order are not established."
+  },
+  "lighting": {
+    "title": "Studio Small 09",
+    "source": "https://polyhaven.com/a/studio_small_09",
+    "download": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/studio_small_09_1k.hdr",
+    "license": "CC0",
+    "license_source": "https://polyhaven.com/license",
+    "bytes": 1615248,
+    "sha256": "e7cfda5f4e98e623db12b8bfd0184e048488e4855d9c83e2751fb44a32e80c45",
+    "retrieved_at": "2026-10-30"
+  }
+}
