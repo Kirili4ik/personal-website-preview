@@ -42,9 +42,33 @@
   ],
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
   "music": {
-    "work": null,
-    "life": null,
-    "note": "No soundtrack selected or bundled."
+    "work": {
+      "file": "brokeforfree-night-owl.mp3",
+      "title": "Night Owl",
+      "artist": "Broke For Free",
+      "source": "https://freemusicarchive.org/music/Broke_For_Free/Directionless_EP/Broke_For_Free_-_Directionless_EP_-_01_Night_Owl/",
+      "artist_source": "https://brokeforfree.bandcamp.com/track/night-owl",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "bytes": 8054458,
+      "sha256": "7952dce61b28f454ff3ee0183f85df52b2a9f2edfcd6a0ebafc12f981f666ed5",
+      "duration_seconds": 194.115918,
+      "modifications": "Original MP3 unchanged; website playback loops with a short fade-in."
+    },
+    "life": {
+      "file": "brokeforfree-something-elated.mp3",
+      "title": "Something Elated",
+      "artist": "Broke For Free",
+      "source": "https://freemusicarchive.org/music/Broke_For_Free/Something_EP/Broke_For_Free_-_Something_EP_-_05_Something_Elated/",
+      "artist_source": "https://brokeforfree.bandcamp.com/track/something-elated",
+      "license": "CC BY 3.0 US",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/us/",
+      "bytes": 9471277,
+      "sha256": "644c07861766a0575af960990fff394c7343755ff285dfb594dc2ab0231e6589",
+      "duration_seconds": 234.579592,
+      "modifications": "Original MP3 unchanged; website playback loops with a short fade-in."
+    },
+    "note": "Work: Night Owl; Life: Something Elated. Starts automatically on disc selection; mute available. Both recordings by Broke For Free, used with attribution."
   },
   "classical_recording": {
     "title": "Moonlight Sonata / I. Adagio sostenuto",

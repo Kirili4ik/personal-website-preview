@@ -8,7 +8,7 @@
   audio.volume = 0;
   let tracks = {};
   try { tracks = JSON.parse(document.getElementById('player-config')?.textContent || '{}'); } catch {}
-  let currentTrack = null, selectedDisc = null, userPaused = false, blocked = false;
+  let currentTrack = null, selectedDisc = null, classicalPlaying = false, blocked = false;
   let pendingMusic = false, musicRequest = 0, navigationRequest = 0;
   let pageListeners = null, navigationController = null, fadeFrame = null, cancelInsertion = () => {};
   let finishInsertion = null;
@@ -25,13 +25,11 @@
   }
 
   function updateControls() {
-    const paused = userPaused || blocked || audio.paused;
+    const paused = blocked || audio.paused;
+    const name = tracks.labels?.[selectedDisc];
     document.querySelectorAll('[data-player-track]').forEach(label => {
-      label.textContent = !currentTrack ? 'Music off' : paused ? 'Music paused' : `${selectedDisc === 'work' ? 'Work' : 'Life'} music`;
-    });
-    document.querySelectorAll('[data-player-pause]').forEach(button => {
-      button.hidden = !currentTrack;
-      button.textContent = paused ? 'Resume music' : 'Pause music';
+      const disc = selectedDisc === 'work' ? 'Work' : 'Life';
+      label.textContent = !currentTrack ? 'Music off' : name ? `${paused ? 'Paused / ' : ''}${disc} / ${name}` : paused ? 'Music paused' : `${disc} music`;
     });
     document.querySelectorAll('[data-player-mute]').forEach(button => {
       button.hidden = !currentTrack;
@@ -58,9 +56,15 @@
   }
 
   function prepareMusic(disc) {
+    classicalPlaying = false;
+    document.querySelectorAll('audio[data-classical]').forEach(media => { if (!media.paused) media.pause(); });
     selectedDisc = disc;
     const track = typeof tracks[disc] === 'string' && tracks[disc] ? new URL(tracks[disc], root).href : null;
-    if (track === currentTrack) return;
+    if (track === currentTrack) {
+      if (track && audio.paused) { audio.volume = .32; playMusic(); }
+      updateControls();
+      return;
+    }
     musicRequest++;
     stopFade();
     audio.pause();
@@ -71,7 +75,7 @@
     if (track) {
       audio.src = track;
       audio.load();
-      if (!userPaused) playMusic();
+      playMusic();
     }
     updateControls();
   }
@@ -83,14 +87,20 @@
     const start = performance.now();
     const fade = now => {
       fadeFrame = null;
-      if (userPaused || blocked || audio.paused) return;
+      if (classicalPlaying || blocked || audio.paused) return;
       const progress = Math.min(1, (now-start)/300);
       audio.volume = .32 * progress;
       if (progress < 1) fadeFrame = requestAnimationFrame(fade);
     };
     fadeFrame = requestAnimationFrame(fade);
-    if (currentTrack && !userPaused && !blocked && audio.paused) playMusic();
+    if (currentTrack && !classicalPlaying && !blocked && audio.paused) playMusic();
     updateControls();
+  }
+
+  function resumeBackground() {
+    if (!classicalPlaying) return;
+    classicalPlaying = false;
+    if (currentTrack && !pendingMusic) { audio.volume = .32; playMusic(); }
   }
 
   function routeURL(href) {
@@ -131,6 +141,7 @@
       pageListeners?.abort();
       window.disposeAlbumInteractions?.();
       document.querySelectorAll('video, audio').forEach(media => { if (!media.paused) media.pause(); });
+      resumeBackground();
       next.querySelectorAll('script:not([type="application/json"])').forEach(script => script.remove());
       const body = document.importNode(next.body, true);
       document.title = next.title;
@@ -225,17 +236,6 @@
   }
 
   document.addEventListener('click', event => {
-    const pause = event.target.closest('[data-player-pause]');
-    if (pause && currentTrack) {
-      stopFade();
-      if (audio.paused || userPaused || blocked) {
-        userPaused = false;
-        audio.volume = pendingMusic ? 0 : .32;
-        document.querySelectorAll('audio[data-classical]').forEach(media => { if (!media.paused) media.pause(); });
-        playMusic();
-      } else { userPaused = true; audio.pause(); updateControls(); }
-      return;
-    }
     if (event.target.closest('[data-player-mute]') && currentTrack) { audio.muted = !audio.muted; updateControls(); return; }
     const link = event.target.closest('a[href]');
     if (!link || event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || link.target || link.hasAttribute('download') || link.hasAttribute('data-document') || link.hasAttribute('data-contact')) return;
@@ -248,10 +248,22 @@
   document.addEventListener('play', event => {
     if (!event.target.matches?.('audio[data-classical]')) return;
     stopFade();
-    userPaused = true;
+    classicalPlaying = true;
     audio.pause();
     updateControls();
   }, true);
+  const restoreBackground = event => {
+    if (event.target.matches?.('audio[data-classical]')) resumeBackground();
+  };
+  document.addEventListener('pause', restoreBackground, true);
+  document.addEventListener('ended', restoreBackground, true);
+  const retryMusic = () => {
+    if (!blocked || !currentTrack || classicalPlaying) return;
+    audio.volume = pendingMusic ? 0 : .32;
+    playMusic();
+  };
+  document.addEventListener('pointerdown', retryMusic);
+  document.addEventListener('keydown', retryMusic);
   audio.addEventListener('error', () => { stopFade(); blocked = true; audio.pause(); updateControls(); });
   window.addEventListener('popstate', event => {
     const url = routeURL(location.href);
